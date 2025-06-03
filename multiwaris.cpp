@@ -10,3 +10,11 @@ class orang {
         }
 };
 
+class pekerja : virtual public orang {
+    public:
+        pekerja(int Pumur) :
+        orang(Pumur){
+        cout << "pekerja dibuat\n" << endl;
+        }
+};
+

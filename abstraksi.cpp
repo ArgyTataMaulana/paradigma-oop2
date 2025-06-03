@@ -6,5 +6,11 @@ class Abstraksiklas {
 
     public:
 
+    //method untuk mengisi nilai
+    //private member
+    void setXy (string a, string b) {
+        x = a;
+        y = b;
+    }
     
 };

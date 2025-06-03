@@ -22,3 +22,17 @@ class lia :public Seseorang {
         cout << "Pesan dari Lia" << endl;
     }
 };
+
+int main() {
+    Seseorang* obyek;
+    Joko a;
+    lia b;
+
+    obyek = &a;
+    obyek->pesan();
+    obyek = &b;
+    obyek->pesan();
+    //a.Seseorang::pesan();
+    //b.Seseorang::pesan();
+    return 0;
+}
